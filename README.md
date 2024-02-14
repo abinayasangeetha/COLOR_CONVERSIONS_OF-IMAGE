@@ -52,7 +52,9 @@ Split and merge HSV Image
   </td>
   <td>
 ### OUTPUT:
-![img1](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/cd1906f2-101c-4057-88bb-d173973a191c)
+
+      
+      ![img1](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/cd1906f2-101c-4057-88bb-d173973a191c)
 
 ### ii)Write the image
 ```Python
