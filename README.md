@@ -43,16 +43,16 @@ Split and merge HSV Image
 ### i) Read and display the image
 ```Python
     import cv2
-    image=cv2.imread('dipt.jpg',1)
+    image=cv2.imread('Abinaya.jpeg',1)
     image=cv2.resize(image,(400,300))
-    cv2.imshow('dipt',image)
+    cv2.imshow('Abinaya',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
   </td>
   <td>
-
-
+### OUTPUT:
+![img1](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/cd1906f2-101c-4057-88bb-d173973a191c)
 
 ### ii)Write the image
 ```Python
