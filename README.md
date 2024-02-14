@@ -51,16 +51,7 @@ Split and merge HSV Image
 ```
   </td>
   <td>
-    
-#### OUTPUT:
-![Deepika](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/beba183b-6b80-4254-a5ac-c0a9c0ed29be)
-</td>
-</tr>
 
-
-
-<tr>
-  <td width=50%>
 
 
 ### ii)Write the image
@@ -72,13 +63,7 @@ Split and merge HSV Image
   </td>
   <td>
 
-#### OUTPUT:
 
-![deepikasinivasandipt](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/f79b52d6-f77d-4ede-8b90-7ffe48d4efaa)
-</td>
-</tr> 
-<tr> 
-  <td width=50%>
 
 ### iii)Shape of the Image
 ```Python
@@ -89,12 +74,7 @@ Split and merge HSV Image
   </td> 
   <td>
 
-#### OUTPUT:
-![deepikasrinivasandipt2](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/a2a41755-ec98-4916-8b10-ce4029169c76)
-  </td>
-  </tr> 
-  <tr>
-    <td>
+
       
 ### iv)Access rows and columns
 ```Python
@@ -114,14 +94,6 @@ Split and merge HSV Image
   </td>
   <td width="50%">
 
-#### OUTPUT:
-
-![deepikasrinivasan DIPT](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/ffd8934a-d95d-4e6f-b50d-d5c9c5024c46)
-
- </td>
- </tr>
- <tr>
-  <td width=50%>
 
 ### v)Cut and paste portion of image
 ```Python
@@ -137,12 +109,7 @@ Split and merge HSV Image
   </td>
   <td>
 
-#### OUTPUT:
 
-![deepikasrinivasanDIPT1](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/4c37d6dd-4392-4b61-abcc-b7dfe50a886f)
- </td>
- </tr>
-</table>
 
 ### vi) BGR and RGB to HSV and GRAY
 ```Python
@@ -166,9 +133,6 @@ Split and merge HSV Image
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
-#### OUTPUT:
-
-![deepikasrinivasan DIPT2](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/6e7474d1-141a-49c7-9af5-d04eadaa4c69)
 
 ### vii) HSV to RGB and BGR
 ```Python
@@ -188,9 +152,6 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-#### OUTPUT:
-
-![deepikasrinivasan DIPT3](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/47eeed19-b91a-4099-87c2-ad9be38a474a)
 
 ### viii) RGB and BGR to YCrCb
 ```Python
@@ -208,9 +169,6 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-#### OUTPUT:
-
-![deepikasrinivasan DIPT4](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/5d881349-8569-4831-a6ca-ea4740691579)
 
 
 ### ix) Split and merge RGB Image
@@ -233,9 +191,6 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-#### OUTPUT:
-
-![deepikasrinivasan DIPT5](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/50393780-01e4-4523-840d-f7282e980faf)
 
 
 ### x) Split and merge HSV Image
@@ -257,9 +212,7 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-#### OUTPUT:
 
-![deepikasrinivasan DIPT6](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/1b066b61-0ee9-45c5-abd4-b8df5e8966dd)
 
 
 
