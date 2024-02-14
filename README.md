@@ -43,7 +43,7 @@ Split and merge HSV Image
 ### i) Read and display the image
 ```Python
     import cv2
-    image=cv2.imread('Deepika.jpg',1)
+    image=cv2.imread('dipt.jpg',1)
     image=cv2.resize(image,(400,300))
     cv2.imshow('Deepika',image)
     cv2.waitKey(0)
