@@ -36,9 +36,11 @@ Split and Merge RGB Image
 Split and merge HSV Image
 
 ##  Program:
+
+```
 ### Developed By: ABINAYA S
 ### Register Number: 212222230002
-
+```
 
 ### i) Read and display the image
 ```Python
@@ -62,6 +64,7 @@ Split and merge HSV Image
 
 <tr>
   <td width=50%>
+
 ### ii)Write the image
 ```Python
     import cv2
