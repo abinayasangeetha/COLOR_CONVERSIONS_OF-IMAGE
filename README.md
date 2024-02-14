@@ -35,7 +35,7 @@ Split and Merge RGB Image
 ### Step10:
 Split and merge HSV Image
 
-#####  Program:
+##  Program:
 ### Developed By: ABINAYA S
 ### Register Number: 212222230002
 
@@ -65,22 +65,39 @@ Split and merge HSV Image
 ### ii)Write the image
 ```Python
     import cv2
-    image=cv2.imread('dipt.jpg',0)
-    cv2.imwrite('nemo.jpg',image)
+    image=cv2.imread('Abinaya.jpeg',0)
+    cv2.imwrite('apple.jpeg',image)
 ```
   </td>
   <td>
+
+#### OUTPUT:
+
+![img2](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/d97708f5-e4fe-4fde-84cb-46270ab68a94)
+
+</td>
+</tr> 
+<tr> 
+  <td width=50%>
 
 
 
 ### iii)Shape of the Image
 ```Python
-     import cv2
-    image=cv2.imread('dipt.jpg',1)
+    import cv2
+    image=cv2.imread('Abinaya.jpeg',1)
     print(image.shape)
 ```
   </td> 
   <td>
+
+#### OUTPUT:
+![img3](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/2a88bfb5-fa9f-4b04-9b99-2bdf87689edf)
+
+  </td>
+  </tr> 
+  <tr>
+    <td>
 
 
       
@@ -88,25 +105,35 @@ Split and merge HSV Image
 ```Python
      import random
      import cv2
-     image=cv2.imread('dipt.jpg',1)
+     image=cv2.imread('Abinaya.jpeg',1)
      image=cv2.resize(image,(400,400))
      for i in range (150,200):
        for j in range(image.shape[1]):
           image[i][j]=[random.randint(0,255),
                        random.randint(0,255),
                        random.randint(0,255)] 
-    cv2.imshow('part image',image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+     cv2.imshow('part image',image)
+     cv2.waitKey(0)
+     cv2.destroyAllWindows()
 ```
   </td>
   <td width="50%">
+ 
+      
+#### OUTPUT:
+![img4](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/d2b764ac-f593-45a4-80aa-540157d259a5)
 
+
+
+ </td>
+ </tr>
+ <tr>
+  <td width=50%>
 
 ### v)Cut and paste portion of image
 ```Python
      import cv2
-     image=cv2.imread('dipt.jpg',1)
+     image=cv2.imread('Abinaya.jpeg',1)
      image=cv2.resize(image,(400,400))
      tag =image[150:200,110:160]
      image[110:160,150:200] = tag
@@ -117,12 +144,19 @@ Split and merge HSV Image
   </td>
   <td>
 
+#### OUTPUT:
+![img5](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/66ba6ccd-fb1a-48d4-87b8-1815edb39d81)
+
+
+ </td>
+ </tr>
+</table>
 
 
 ### vi) BGR and RGB to HSV and GRAY
 ```Python
     import cv2
-    img = cv2.imread('dipt.jpg',1)
+    img = cv2.imread('Abinaya.jpeg',1)
     img = cv2.resize(img,(300,200))
     cv2.imshow('Original Image',img)
 
@@ -141,11 +175,14 @@ Split and merge HSV Image
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
+#### OUTPUT:
+![img6](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/940e70bf-9ce7-4444-93e2-dd5ea2376b54)
+
 
 ### vii) HSV to RGB and BGR
 ```Python
 import cv2
-img = cv2.imread('dipt.jpg')
+img = cv2.imread('Abinaya.jpeg')
 img = cv2.resize(img,(300,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -160,11 +197,13 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+#### OUTPUT:
+![Uploading img7.jpg…]()
 
 ### viii) RGB and BGR to YCrCb
 ```Python
 import cv2
-img = cv2.imread('dipt.jpg')
+img = cv2.imread('Abinaya.jpeg')
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original RGB Image',img)
 
@@ -177,12 +216,13 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-
+#### OUTPUT:
+![Uploading img8.png…]()
 
 ### ix) Split and merge RGB Image
 ```Python
 import cv2
-img = cv2.imread('dipt.jpg',1)
+img = cv2.imread('Abinaya.jpeg',1)
 img = cv2.resize(img,(300,200))
 
 R = img[:,:,2]
@@ -199,12 +239,14 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+#### OUTPUT:
+![img9](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/9b559e3a-cfc5-456a-8684-97b17b224c1d)
 
 
 ### x) Split and merge HSV Image
 ```Python
 import cv2
-img = cv2.imread("dipt.jpg",1)
+img = cv2.imread("Abinaya.jpeg",1)
 img = cv2.resize(img,(300,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
@@ -220,8 +262,9 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+#### OUTPUT:
 
-
+![img10](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/8dbbc44d-6f5c-40a6-b0cf-32d65619b8ad)
 
 
 
