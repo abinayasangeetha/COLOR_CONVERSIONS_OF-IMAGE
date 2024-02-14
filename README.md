@@ -201,7 +201,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 #### OUTPUT:
-![Uploading img7.jpg…]()
+![img7](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/7361d544-982a-439a-a140-15218d9df6ae)
+
 
 ### viii) RGB and BGR to YCrCb
 ```Python
@@ -220,7 +221,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 #### OUTPUT:
-![Uploading img8.png…]()
+![img8](https://github.com/abinayasangeetha/COLOR_CONVERSIONS_OF-IMAGE/assets/119393675/70a365e7-2b12-4b8f-b432-3ee3964feeb5)
+
 
 ### ix) Split and merge RGB Image
 ```Python
